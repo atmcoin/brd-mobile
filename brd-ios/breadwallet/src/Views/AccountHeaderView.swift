@@ -60,7 +60,7 @@ class AccountHeaderView: UIView, GradientDrawable, Subscriber, Trackable {
     private var historyPeriodPillY: NSLayoutConstraint?
     
     // MARK: Properties
-    private static  let marketDataHeight: CGFloat = 110
+    private static  let marketDataHeight: CGFloat = 130
     static let headerViewMinHeight: CGFloat = 160.0
     private let currency: Currency
     private var isChartHidden = false
