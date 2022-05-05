@@ -409,7 +409,7 @@ class AccountHeaderView: UIView, GradientDrawable, Subscriber, Trackable {
         button.setTitleColor(.white, for: .normal)
         graphButtons.forEach {
             if $0.button != button {
-                $0.button.setTitleColor(Theme.tertiaryText, for: .normal)
+                $0.button.setTitleColor(Theme.primaryBackground, for: .normal)
             }
         }
     }
